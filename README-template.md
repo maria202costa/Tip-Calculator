@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [The Solution URL]()
-- Live Site URL: [Live Site URL]()
+- Solution URL: [The solution URL](https://www.frontendmentor.io/solutions/a-interative-tip-calculator-using-javascript-HR7SAlolQq)
+- Live Site URL: [Live Site URL](https://tip-calculator-peach-eight.vercel.app/)
 
 ## My process
 
