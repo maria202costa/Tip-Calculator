@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Tip calculator app</title>
+  </head>
+  <body>
+    <div class="logo">
+      <img src="/images/logo.svg" alt="Logo icon" />
+    </div>
+
+    <main>
+      <!--First Div Start-->
+      <div class="select-div">
+        <div class="bill-text">
+          <p>Bill</p>
+        </div>
+
+        <form id="bill-form">
+          <img src="/images/icon-dollar.svg" alt="dollar-icon" />
+          <input type="number" placeholder="0" class="bill-input" />
+        </form>
+
+        <p class="tip-text">Select a tip %</p>
+        <div class="tip-btns">
+          <button class="btns">5%</button>
+          <button class="btns">10%</button>
+          <button class="btns">15%</button>
+          <button class="btns">25%</button>
+          <button class="btns">50%</button>
+          <form class="custom-form">
+            <input type="number" placeholder="Custom" id="custom-input" />
+          </form>
+        </div>
+
+        <div class="people-text">
+          <p>Amount of People</p>
+          <p id="error-text"></p>
+          <!--Cant't be zero-->
+        </div>
+
+        <form id="people-form">
+          <img src="/images/icon-person.svg" alt="person-icon" />
+          <input type="number" placeholder="0" class="person-input" />
+        </form>
+      </div>
+      <!--First Div End-->
+
+      <!--Second Div Start-->
+      <div class="result-div">
+        <div class="tip-result">
+          <p>Tip Amount<br /><small>/ person</small></p>
+          <h2 class="tip-per-person">$0.00</h2>
+        </div>
+
+        <div class="bill-result">
+          <p>Total<br /><small>/ person</small></p>
+          <h2 class="total-per-person">$0.00</h2>
+        </div>
+
+        <button class="reset-btn">Reset</button>
+      </div>
+      <!--Second Div End-->
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/maria202costa"
+        >@maria202costa</a
+      >.
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
